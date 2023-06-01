@@ -24,7 +24,7 @@ git --version
 'file_name="$1"
 path="/var/www/html/$file_name"
 
-if [ -f "$path" ]; then
+iif [ -f "$path" ]; then
     echo "$file_name exists in the path."
 else
     echo "As $file_name is not there, creating a new file in the path."
